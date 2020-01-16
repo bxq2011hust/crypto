@@ -6,9 +6,9 @@ package x509
 
 import (
 	"bytes"
-	"crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/ecdsa"
 	"crypto/ed25519"
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"crypto/rsa"
 	"encoding/hex"
 	"reflect"

@@ -5,8 +5,8 @@
 package x509
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"encoding/asn1"
 	"errors"
 	"fmt"

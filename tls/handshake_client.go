@@ -7,11 +7,11 @@ package tls
 import (
 	"bytes"
 	"crypto"
-	"crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/ecdsa"
 	"crypto/ed25519"
 	"crypto/rsa"
 	"crypto/subtle"
-	"crypto/x509"
+	"github.com/bxq2011hust/crypto/x509"
 	"errors"
 	"fmt"
 	"io"

@@ -7,9 +7,9 @@ package tls
 import (
 	"bytes"
 	"crypto"
-	"crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/ecdsa"
 	"crypto/ed25519"
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"crypto/rsa"
 	"encoding/asn1"
 	"errors"

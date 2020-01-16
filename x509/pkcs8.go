@@ -5,7 +5,7 @@
 package x509
 
 import (
-	"crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/ecdsa"
 	"crypto/ed25519"
 	"crypto/rsa"
 	"crypto/x509/pkix"

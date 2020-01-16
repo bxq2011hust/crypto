@@ -6,8 +6,8 @@ package x509
 
 import (
 	"bytes"
-	"crypto/ecdsa"
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"crypto/rand"
 	"crypto/x509/pkix"
 	"encoding/asn1"

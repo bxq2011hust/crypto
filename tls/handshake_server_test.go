@@ -7,7 +7,7 @@ package tls
 import (
 	"bytes"
 	"crypto"
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"encoding/pem"
 	"errors"
 	"fmt"

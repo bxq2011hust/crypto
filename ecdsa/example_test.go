@@ -5,8 +5,8 @@
 package ecdsa_test
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"crypto/rand"
 	"crypto/sha256"
 	"fmt"

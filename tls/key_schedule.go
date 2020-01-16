@@ -5,7 +5,7 @@
 package tls
 
 import (
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"crypto/hmac"
 	"crypto/subtle"
 	"errors"

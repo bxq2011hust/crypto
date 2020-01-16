@@ -5,8 +5,8 @@
 package tls_test
 
 import (
-	"crypto/tls"
-	"crypto/x509"
+	"github.com/bxq2011hust/crypto/tls"
+	"github.com/bxq2011hust/crypto/x509"
 	"log"
 	"net/http"
 	"net/http/httptest"

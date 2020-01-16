@@ -21,6 +21,6 @@ func initSecp256k1() {
 //
 // The cryptographic operations do not use constant-time algorithms.
 func Secp256k1() Curve {
-	initonce.Do(initSecp256k1)
+	initonce.Do(initAll)
 	return secp256k1
 }

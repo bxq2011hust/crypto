@@ -9,7 +9,7 @@ import (
 	"crypto/md5"
 	"crypto/rsa"
 	"crypto/sha1"
-	"crypto/x509"
+	"github.com/bxq2011hust/crypto/x509"
 	"errors"
 	"io"
 )

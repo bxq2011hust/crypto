@@ -10,12 +10,12 @@
 package main
 
 import (
-	"crypto/ecdsa"
+	"github.com/bxq2011hust/crypto/ecdsa"
 	"crypto/ed25519"
-	"crypto/elliptic"
+	"github.com/bxq2011hust/crypto/elliptic"
 	"crypto/rand"
 	"crypto/rsa"
-	"crypto/x509"
+	"github.com/bxq2011hust/crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
 	"flag"

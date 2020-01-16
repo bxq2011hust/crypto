@@ -8,9 +8,10 @@ package elliptic
 
 import (
 	"crypto/subtle"
-	"internal/cpu"
 	"math/big"
 	"unsafe"
+
+	"github.com/bxq2011hust/crypto/internal/cpu"
 )
 
 const (

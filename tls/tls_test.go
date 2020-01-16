@@ -6,11 +6,11 @@ package tls
 
 import (
 	"bytes"
-	"crypto/x509"
+	"github.com/bxq2011hust/crypto/x509"
 	"encoding/json"
 	"errors"
 	"fmt"
-	"internal/testenv"
+	"github.com/bxq2011hust/crypto/internal/testenv"
 	"io"
 	"io/ioutil"
 	"math"

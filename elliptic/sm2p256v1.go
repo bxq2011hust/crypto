@@ -18,6 +18,6 @@ func InitSm2p256v1() {
 }
 
 func Sm2p256v1() Curve {
-	initonce.Do(InitSm2p256v1)
+	initonce.Do(initAll)
 	return sm2p256v1
 }

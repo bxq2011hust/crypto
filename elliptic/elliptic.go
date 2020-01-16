@@ -367,6 +367,8 @@ func initAll() {
 	initP256()
 	initP384()
 	initP521()
+	initSecp256k1()
+	InitSm2p256v1()
 }
 
 func initP384() {
